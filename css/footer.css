@@ -1,0 +1,16 @@
+.sociallinks {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.references {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.ref-text {
+  font-size: 60%;
+  font-weight: bolder;
+  color: #2d545e;
+}

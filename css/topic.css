@@ -1,0 +1,148 @@
+﻿@import "header.css";
+@import "main.css";
+@import "buttons.css";
+@import "footer.css";
+
+.sidebar {
+  /* needed for the flex layout*/
+  /*margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;*/
+  flex: 1 1 200px;
+  /*opacity: 0.0;*/
+}
+
+/* no grid support? */
+.sidebar {
+  float: left;
+  width: 20%;
+}
+
+.content {
+  float: right;
+  width: 80%;
+}
+
+/* make a grid */
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 10px;
+}
+
+#sidebar {
+  margin-top: 1px;
+}
+
+.sidebar-title {
+  font-size: 88%;
+  font-weight: bolder;
+  letter-spacing: .0em;
+  color: #F86200;
+}
+
+.sidebar-image {
+  font-size: 60%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.sidebar-subtitle {
+  font-size: 70%;
+}
+
+.sidebar-text a:link {
+  font-size: 60%;
+  font-weight: bold;
+  color: #228B22;
+  padding-bottom: 10px;
+}
+
+.content-title {
+  font-size: 90%;
+  font-weight: bolder;
+  color: #F86200;
+}
+
+.about-title {
+  font-size: 90%;
+  font-weight: bolder;
+  color: #F86200;
+}
+
+.content-image {
+  font-size: 60%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.content-subtitle {
+  font-size: 70%;
+}
+
+.content-text {
+  font-size: 60%;
+  font-weight: bold;
+  color: #228B22;
+  padding-bottom: 20px;
+}
+
+.about-text {
+  font-size: 60%;
+  font-weight: bold;
+  color: #2d545e;
+}
+
+#avatar {
+  height: 43px;
+}
+
+.wrapper>* {
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 125%;
+  /* needed for the floated layout*/
+  margin-bottom: 10px;
+}
+
+.header,
+.footer {
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 0 1 100%;
+  grid-column: 1 / -1;
+  /*clear: both;*/
+}
+
+#emailbox {
+  margin-top: 20px;
+}
+
+.form-text {
+  font-size: 70%;
+  font-weight: bold;
+  color: #F86200;
+}
+
+.form {
+  border: 1px solid #228B22;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 100, .8);
+  position: relative;
+  max-width: 300px;
+  max-height: 210px;
+  background: radial-gradient(#fceabb, #6dd5ed);
+  background-repeat: no-repeat;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.form input {
+  width: 100%;
+  box-sizing: borderbox;
+}

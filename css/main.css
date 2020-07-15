@@ -1,0 +1,31 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+  height: 100%;
+  background: radial-gradient(#fceabb, #f8b500);
+  background-repeat: no-repeat;
+}
+
+a:link {
+  font-size: 80%;
+  font-weight: bolder;
+  color: #2d545e;
+}
+
+a:visited {
+  color: #228B22;
+}
+
+a:hover {
+  color: #17a2b8;
+  font-weight: 900;
+}
+
+a:active {
+  color: #FF0000;
+}

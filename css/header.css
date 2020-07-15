@@ -1,0 +1,33 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.header {
+  margin-top: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#topnav {
+  overflow: hidden;
+}
+
+#blogtitle {
+  font-size: 120%;
+  font-weight: bolder;
+  color: #228B22;
+  letter-spacing: .05em;
+}
+
+.header,
+.footer {
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 0 1 100%;
+  grid-column: 1 / -1;
+}
